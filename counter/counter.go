@@ -44,10 +44,18 @@ func ExecRandom2(counterSystem CounterSystem) {
 	roundsToPlay := rand.IntN(100)
 
 	for roundNumber := range roundsToPlay {
-	  fmt.Println("Round number ", roundNumber)
+		fmt.Println("Round number ", roundNumber)
 		methodToCall := rand.IntN(3)
 
 		fmt.Println("Got number ", methodToCall)
+
+		switch methodToCall {
+		case 0:
+			fmt.Println("Will call add method!")
+		case 1:
+			fmt.Println("Will call subtract method!")
+		}
+
 	}
 
 }

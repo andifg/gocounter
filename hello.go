@@ -24,17 +24,10 @@ func main() {
 		//fmt.Printf("##############/n")
 		//fmt.Printf("End number %d", t.sum)
 	}
-	
+
 	fmt.Println("#########################")
 
 	counter.ExecRandom2(t)
 
 }
 
-func helloWorld() {
-	//fmt.Println("Hello world !")
-	//fmt.Println(Expoo)
-	//	fmt.Println(Test)
-	fmt.Println(Teststring)
-	fmt.Println("###############")
-}
