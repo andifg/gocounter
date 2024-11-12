@@ -2,8 +2,8 @@ package counter
 
 import (
 	//"fmt"
-	"math/rand/v2"
 	log "github.com/sirupsen/logrus"
+	"math/rand/v2"
 )
 
 type RandomCounter struct {
@@ -17,7 +17,6 @@ type CounterSystem interface {
 	Divide(number int)
 	ExecRandom()
 }
-
 
 func (r *RandomCounter) setCounter(counter CounterSystem) {
 	r.counter = counter

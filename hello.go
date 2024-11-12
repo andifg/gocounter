@@ -3,15 +3,15 @@ package main
 import (
 	//"fmt"
 	//"math/rand/v2"
-	"playground/hello/counter"
 	log "github.com/sirupsen/logrus"
 	"os"
+	"playground/hello/counter"
 )
 
-func init(){
-  log.SetFormatter(&log.JSONFormatter{})
-  log.SetOutput(os.Stdout)
-  log.SetLevel(log.InfoLevel)
+func init() {
+	log.SetFormatter(&log.JSONFormatter{})
+	log.SetOutput(os.Stdout)
+	log.SetLevel(log.InfoLevel)
 
 }
 
