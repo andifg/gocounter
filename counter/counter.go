@@ -23,7 +23,7 @@ func (c *Counter) Subtract(number int) {
 }
 
 func (c *Counter) Multiply(number int) {
-	log.Debug("Will multiply by %d \n", number)
+	log.Debug("Will multiply by ", number)
 	c.sum = c.sum * number
 	log.Debug("New total value", c.sum)
 }
